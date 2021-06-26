@@ -1,0 +1,179 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(187, 202, 212);
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid black;
+    background-color: rgb(3, 20, 39);
+    align-items: center;
+    
+}
+h1{
+    border: solid black;
+    background-color: burlywood;
+    color: rgb(59, 150, 150);
+    padding: 10px 10px 10px 50px;
+}
+nav{
+    background-color: rgb(3, 20, 39);
+}
+Nav ul {
+    align-items: center; 
+    background-color: rgb(3, 20, 39);
+}
+
+
+.nav{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    
+    
+}
+.nav a{
+    color: burlywood;
+    background-color: rgb(3, 20, 39);
+}
+.nav a:hover {
+    color:rgb(8, 29, 100);
+    background-color: burlywood;
+} 
+.nav a:focus{
+    color:rgb(8, 29, 100);      
+    background-color: burlywood;
+} 
+#pf {
+    align-self:flex-end;
+    font-size: 40px;
+    background-color: burlywood;
+    color:rgb(59, 150, 150);
+    margin: 10px 40px;
+    
+}
+
+ 
+.hero {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("images/family.jpg");
+    display: flex;
+    justify-content: flex-end
+
+    
+
+}
+.main{
+    flex-direction: column;
+}
+   
+
+.maindiv {
+    display: flex;
+    
+    
+}
+.mainh3 {
+    border-right: solid rgb(8, 29, 100) 5px;
+    color:rgb(8, 29, 100);
+    flex-wrap :wrap; 
+    width: 15%;
+    padding: 5px;
+    margin: 5px;
+    flex-shrink: 0;
+    font-size: 30px;
+    text-align: right;
+    
+    
+}
+
+#projects {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex:1 0 80%;
+    font-size: xx-large;
+    font-weight: bold;
+  
+}
+
+.deployed {
+    
+    background-image: url("images/family.jpg");
+    height: 300px;
+    border: solid rgb(8, 29, 100);
+    background-position: center;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(59, 150, 150);
+    text-align: right;
+           
+}
+.deployed:hover{
+    border: solid burlywood;
+    color: rgb(8, 29, 100);
+ 
+    }
+
+#first {
+    
+    background-image: url("images/first.PNG");
+    background-position: top;
+    flex: 1 0 80%
+}
+#refactor {
+    background-image: url("images/CodeRefactor.png");
+    background-size: cover;
+    flex: 1 0 25%
+
+
+}
+#blowup{
+    background-image: url("images/blowup.PNG");
+        background-size: cover;
+        flex: 1 0 25%
+
+}
+.reachme{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    flex: 0.8   
+    
+}
+.reachmeitm {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(59, 150, 150);    
+    
+}
+.reachmeitm:hover{
+    color: rgb(8, 29, 100);
+    
+}
+
+@media 
+(max-width: 481px){
+    .maindiv{flex-direction: column;}
+    .mainh3{
+        border-right:none; 
+        border-bottom: solid rgb(8, 29, 100) 2px; 
+        width: 80%;
+        text-align: center;
+    }
+    .nav{  display: inline-block;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 5px;
+    }
+   
+}
