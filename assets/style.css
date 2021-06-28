@@ -162,7 +162,7 @@ Nav ul {
 }
 
 @media 
-(max-width: 766){
+(max-width: 766px){
     .maindiv{flex-direction: column;}
     .mainh3{
         border-right:none; 
