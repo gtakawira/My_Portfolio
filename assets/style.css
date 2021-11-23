@@ -122,9 +122,9 @@ Nav ul {
  
     }
 
-#first {
+#ActGen {
     
-    background-image: url("images/first.PNG");
+    background-image: url("images/actgen.JPG");
     background-position: top;
     flex: 1 0 80%
 }
@@ -140,7 +140,13 @@ Nav ul {
         background-size: cover;
         flex: 1 0 25%
 
+
 }
+
+#scheduler{
+    background-image: url("images/scheduler.jpg");
+        background-size: cover;
+        flex: 1 0 25%}
 .reachme{
     list-style: none;
     display: flex;
